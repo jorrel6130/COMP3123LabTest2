@@ -4,7 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import Search from './components/Search'
 import Result from './components/Result'
-import Toronto from './components/Toronto'
+import { BrowserRouter, Route, Routes, NavLink } from 'react-router-dom'
 
 function App() {
   return (
@@ -14,13 +14,11 @@ function App() {
       <h4>101329925</h4>
       <BrowserRouter>
         <nav>
-          <NavLink to='/search'> Search</NavLink>
-          <NavLink to='/toronto'> Toronto</NavLink>
+          <NavLink to='/search'> - Search - </NavLink>
         </nav>
           <Routes>
             <Route path='/search' element= { <Search /> }/>
             <Route path='/result' element= { <Result /> }/>
-            <Route path='/toronto' element= { <Toronto /> }/>
           </Routes>
         </BrowserRouter>
     </div>
