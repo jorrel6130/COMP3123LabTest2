@@ -4,7 +4,6 @@ import logo from './logo.svg';
 import './App.css';
 import Search from './components/Search'
 import Result from './components/Result'
-import Home from './components/Home'
 import { BrowserRouter, Route, Routes, NavLink } from 'react-router-dom'
 
 function App() {
@@ -20,7 +19,6 @@ function App() {
           <NavLink to='/search'>Search</NavLink>
         </nav>
           <Routes>
-            <Route path='/home' element= { <Home /> }/>
             <Route path='/search' element= { <Search /> }/>
             <Route path='/result/:city' element= { <Result /> }/>
           </Routes>
