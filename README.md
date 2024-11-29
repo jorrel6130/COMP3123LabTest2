@@ -6,3 +6,6 @@ Search Screen (/search). Can choose from list of cities to get weather data from
 
 Results Screen (/result/:city). Displays icon and current weather condition of the selected city.
 ![Screenshot 2024-11-28 193552](https://github.com/user-attachments/assets/f3bf1edd-0c30-47b2-9ea2-eecbe1a76184)
+
+The resulting data is pulled from Open Weather API by the result screen
+![Screenshot 2024-11-28 194327](https://github.com/user-attachments/assets/2b4aabd7-7fd8-4e8b-90b8-dc13aa963bee)
